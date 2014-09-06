@@ -1,4 +1,0 @@
-RnRSchoenbeck
-=============
-
-Wedding Website
