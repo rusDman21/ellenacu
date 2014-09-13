@@ -1,5 +1,5 @@
 html {
-  background: #fafaff;
+  background: #fffffa;
   color: black;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8,22 +8,21 @@ html {
   line-height: 1.5; }
 
 body {
-  color: #04083c;
+  color: #001478;
   margin: 0;
   text-align: center; }
 
 .container {
-  background: #04083c;
-  background: linear-gradient(to bottom, rgba(4, 8, 60, 0.8) 2%, rgba(4, 8, 60, 0.7) 6%, rgba(4, 8, 60, 0.6) 12%, #fafaff 60%), url("../img/scalesdrk.png");
-  padding-top: 110px; }
+  background: #001478;
+  background: linear-gradient(to top, rgba(160, 255, 180, 0.8) 2%, rgba(160, 255, 180, 0.7) 6%, rgba(160, 255, 180, 0.6) 12%, #fffffa 60%), url("../img/wallhashdrk.png"); }
 
 header {
-  background: #fafaff;
-  background: url("../img/feathers.png"), linear-gradient(to bottom, #fafaff, #fafaff);
-  border: 1px solid #04083c;
+  background: #fffffa;
+  background: url("../img/feathers.png"), linear-gradient(to bottom, #fffffa, #fffffa);
+  border: 1px solid #001478;
   border-bottom-color: transparent;
   border-radius: 30px 30px 0 0;
-  box-shadow: 4px -1px 30px 0 rgba(4, 8, 60, 0.8), inset 2px 8px 14px -2px #fafaff;
+  box-shadow: 4px -1px 30px 0 rgba(0, 20, 120, 0.8), inset 2px 8px 14px -2px #fffffa;
   display: block;
   padding: 1.5em 3%;
   margin: 0 auto;
@@ -31,15 +30,20 @@ header {
   width: 50%; }
 
 .main {
-  background: #fafaff;
-  background: linear-gradient(to bottom, rgba(250, 250, 255, 0.1), #fafaff), url("../img/feathers.png");
-  border-radius: 30px 30px 0 0;
-  border-top: 1px solid rgba(4, 8, 60, 0.2);
-  box-shadow: 0 -25px 30px -35px #04083c, inset 2px 8px 14px -2px #fafaff;
-  margin: 0 auto;
-  max-width: 1040px;
-  padding: 1% 5% 2.5% 5%;
-  width: 80%; }
+  background: #fffffa;
+  background: linear-gradient(to top, rgba(255, 255, 200, 0.1), #fffffa 60%), url("../img/feathers.png");
+  border-radius: 4px 4px 20px 20px;
+  box-sizing: border-box;
+  width: 90%; }
+
+nav {
+  background: green;
+  background-color: #fffffa;
+  box-shadow: 0 0 20px rgba(0, 20, 120, 0.15);
+  box-sizing: border-box;
+  position: fixed;
+  width: 90%;
+  z-index: 1000; }
 
 section {
   max-width: 800px;
@@ -47,7 +51,6 @@ section {
   width: 90%; }
 
 footer {
-  background: url("../img/mountain.png") bottom center no-repeat;
   background-size: 40% auto;
   height: 20%;
   min-height: 150px; }
@@ -82,16 +85,6 @@ span {
   float: left;
   width: 33.33333%; }
 
-nav {
-  width: 100%;
-  background-color: #fafaff;
-  background: url("../img/feathers.png");
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 10px 40px rgba(4, 8, 60, 0.15);
-  padding: 10px 0;
-  position: fixed;
-  z-index: 1000; }
-
 nav ul {
   display: inline-block;
   padding-left: 25px; }
@@ -119,7 +112,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 .usback {
-  background: url("../img/russellreneehover.jpg");
+  background: url("../img/prairie1.jpg");
   background-size: 100%;
   border-radius: 10px;
   margin-bottom: 50px;
@@ -216,12 +209,12 @@ audio:not([controls]) {
   display: none; }
 
 a {
-  color: rgba(9, 18, 132, 0.85);
+  color: rgba(0, 33, 197, 0.85);
   text-decoration: none;
   transition: all 0.25s ease-in-out; }
   a:focus {
     outline: thin dotted;
-    color: rgba(4, 8, 60, 0.4); }
+    color: rgba(0, 20, 120, 0.4); }
   a:active, a:hover {
     outline: 0; }
   a:active {
@@ -324,10 +317,10 @@ q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 .press-heavy, h4 {
-  text-shadow: 1px 1px 2px #fafaff, -1px -1px 1px rgba(2, 5, 36, 0.5); }
+  text-shadow: 1px 1px 2px #fffffa, -1px -1px 1px rgba(0, 16, 94, 0.5); }
 
 .press-light, nav {
-  text-shadow: 1px 1px 1px #fafaff; }
+  text-shadow: 1px 1px 1px #fffffa; }
 
 .underline {
   border-bottom: 1px dotted #5a0014;
@@ -518,9 +511,9 @@ q {
 
   nav {
     width: 100%;
-    background-color: #fafaff;
+    background-color: #fffffa;
     background: url("../img/feathers.png");
-    box-shadow: 0 10px 40px rgba(4, 8, 60, 0.15);
+    box-shadow: 0 10px 40px rgba(0, 20, 120, 0.15);
     padding: 10px 0;
     position: relative;
     z-index: 1; }
@@ -533,11 +526,11 @@ q {
     margin-right: 25px; }
 
   .gotop {
-    background-color: #fafaff;
+    background-color: #fffffa;
     background: url("../img/feathers.png");
     border-radius: 5px;
     bottom: 5px;
-    box-shadow: 0 2px 10px rgba(4, 8, 60, 0.25);
+    box-shadow: 0 2px 10px rgba(0, 20, 120, 0.25);
     display: inline-block;
     font-size: 1.625em;
     font-weight: 800;
