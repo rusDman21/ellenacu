@@ -16,31 +16,23 @@ body {
   background: #001478;
   background: linear-gradient(to top, rgba(160, 255, 180, 0.8) 2%, rgba(160, 255, 180, 0.7) 6%, rgba(160, 255, 180, 0.6) 12%, #fffffa 60%), url("../img/wallhashdrk.png"); }
 
-header {
-  background: #fffffa;
-  background: url("../img/feathers.png"), linear-gradient(to bottom, #fffffa, #fffffa);
-  border: 1px solid #001478;
-  border-bottom-color: transparent;
-  border-radius: 30px 30px 0 0;
-  box-shadow: 4px -1px 30px 0 rgba(0, 20, 120, 0.8), inset 2px 8px 14px -2px #fffffa;
-  display: block;
-  padding: 1.5em 3%;
-  margin: 0 auto;
-  max-width: 560px;
-  width: 50%; }
-
 .main {
   background: #fffffa;
   background: linear-gradient(to top, rgba(255, 255, 200, 0.1), #fffffa 60%), url("../img/feathers.png");
   border-radius: 4px 4px 20px 20px;
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8% 5% 2.5% 5%;
   width: 90%; }
 
 nav {
   background: green;
   background-color: #fffffa;
-  box-shadow: 0 0 20px rgba(0, 20, 120, 0.15);
+  box-shadow: 0px 20px 20px -20px rgba(0, 20, 120, 0.15);
   box-sizing: border-box;
+  left: 50%;
+  margin-left: -45%;
+  padding: 1% 0;
   position: fixed;
   width: 90%;
   z-index: 1000; }
@@ -326,6 +318,12 @@ q {
   border-bottom: 1px dotted #5a0014;
   padding-bottom: 4px; }
 
+@media all and (min-width: 1320px) {
+  .hide-med {
+    display: none; }
+
+  nav, .main {
+    width: 1280px; } }
 @media all and (max-width: 1320px) and (min-width: 1120px) {
   .hide-med {
     display: none; } }
