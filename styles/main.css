@@ -8,18 +8,18 @@ html {
   line-height: 1.5; }
 
 body {
-  color: #001478;
+  color: #00143c;
   margin: 0;
   text-align: center; }
 
 .container {
-  background: #001478;
-  background: linear-gradient(to top, rgba(160, 255, 180, 0.8) 2%, rgba(160, 255, 180, 0.7) 6%, rgba(160, 255, 180, 0.6) 12%, #fffffa 60%), url("../img/wallhashdrk.png"); }
+  background: #00143c;
+  background: linear-gradient(to top, rgba(160, 240, 150, 0.7) 2%, rgba(160, 240, 150, 0.6) 6%, rgba(160, 240, 150, 0.5) 12%, #fffffa 60%), url("../img/wallhashdrk.png"); }
 
 .main {
   background: #fffffa;
-  background: linear-gradient(to top, rgba(255, 255, 200, 0.1), #fffffa 60%), url("../img/feathers.png");
-  border-radius: 4px 4px 20px 20px;
+  background: linear-gradient(to top, rgba(255, 255, 245, 0.6), #fffffa 60%), url("../img/feathers.png");
+  border-radius: 4px 4px 8px 8px;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 8% 5% 2.5% 5%;
@@ -28,7 +28,7 @@ body {
 nav {
   background: green;
   background-color: #fffffa;
-  box-shadow: 0px 20px 20px -20px rgba(0, 20, 120, 0.15);
+  box-shadow: 0px 20px 20px -20px rgba(0, 20, 60, 0.15);
   box-sizing: border-box;
   left: 50%;
   margin-left: -45%;
@@ -201,18 +201,18 @@ audio:not([controls]) {
   display: none; }
 
 a {
-  color: rgba(0, 33, 197, 0.85);
+  color: rgba(0, 54, 162, 0.8);
   text-decoration: none;
   transition: all 0.25s ease-in-out; }
   a:focus {
     outline: thin dotted;
-    color: rgba(0, 20, 120, 0.4); }
+    color: rgba(0, 20, 60, 0.4); }
   a:active, a:hover {
     outline: 0; }
   a:active {
-    color: rgba(90, 0, 20, 0.5); }
+    color: rgba(0, 20, 60, 0.5); }
   a:hover {
-    color: #5a0014; }
+    color: #0047d5; }
 
 ul, ol, dl {
   list-style: none;
@@ -235,37 +235,31 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: "Edwardian Script";
-  src: url("../fonts/edwardian-script-webfont.eot");
-  src: url("../fonts/edwardian-script-webfont.eot") format("embedded-opentype"), url("../fonts/edwardian-script-webfont.woff") format("woff"), url("../fonts/edwardian-script-webfont.ttf") format("truetype"), url("../fonts/edwardian-script-webfont.svg") format("svg"); }
-
-@font-face {
-  font-family: "Champagne Limousines";
-  src: url("../fonts/champagne-limousines-webfont.eot");
-  src: url("../fonts/champagne-limousines-webfont.eot") format("embedded-opentype"), url("../fonts/champagne-limousines-webfont.woff") format("woff"), url("../fonts/champagne-limousines-webfont.ttf") format("truetype"), url("../fonts/champagne-limousines-webfont.svg") format("svg"); }
+  font-family: "Chunk-Five";
+  src: url("../fonts/chunkfive-webfont.eot");
+  src: url("../fonts/chunkfive-webfont.eot") format("embedded-opentype"), url("../fonts/chunkfive-webfont.woff") format("woff"), url("../fonts/chunkfive-webfont.ttf") format("truetype"), url("../fonts/chunkfive-webfont.svg") format("svg"); }
 
 body, h2, h3, h5 {
-  font-family: "Champagne Limousines"; }
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100; }
 
 h1, h4 {
-  font-family: "Edwardian Script", cursive; }
+  font-family: "Chunk-Five"; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
   overflow: visible; }
 
 h1 {
-  font-size: 9em; }
+  font-size: 10.5em; }
 
 h2 {
   font-size: 3em; }
 
 h3 {
-  font-size: 3em;
-  font-weight: 800; }
+  font-size: 3em; }
 
 h4 {
-  font-size: 6.75em; }
+  font-size: 4.5em; }
 
 h5 {
   font-size: 3.9em; }
@@ -280,10 +274,14 @@ li {
   font-size: 2.25em; }
 
 h1 {
-  margin: 0 0 -30px;
-  padding-right: 30px;
+  letter-spacing: -0.03em;
+  margin: 0 0 -44px;
   overflow: visible;
   zoom: 1; }
+
+h2 {
+  letter-spacing: 0.56em;
+  padding-left: 20px; }
 
 h2, h4, h5, h6 {
   margin: 0; }
@@ -308,14 +306,14 @@ pre {
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
-.press-heavy, h4 {
-  text-shadow: 1px 1px 2px #fffffa, -1px -1px 1px rgba(0, 16, 94, 0.5); }
+.press-heavy {
+  text-shadow: 1px 1px 2px #fffffa, -1px -1px 1px rgba(0, 11, 35, 0.5); }
 
-.press-light, nav {
+.press-light, h4, nav {
   text-shadow: 1px 1px 1px #fffffa; }
 
 .underline {
-  border-bottom: 1px dotted #5a0014;
+  border-bottom: 1px dotted #00143c;
   padding-bottom: 4px; }
 
 @media all and (min-width: 1320px) {
@@ -511,7 +509,7 @@ q {
     width: 100%;
     background-color: #fffffa;
     background: url("../img/feathers.png");
-    box-shadow: 0 10px 40px rgba(0, 20, 120, 0.15);
+    box-shadow: 0 10px 40px rgba(0, 20, 60, 0.15);
     padding: 10px 0;
     position: relative;
     z-index: 1; }
@@ -528,7 +526,7 @@ q {
     background: url("../img/feathers.png");
     border-radius: 5px;
     bottom: 5px;
-    box-shadow: 0 2px 10px rgba(0, 20, 120, 0.25);
+    box-shadow: 0 2px 10px rgba(0, 20, 60, 0.25);
     display: inline-block;
     font-size: 1.625em;
     font-weight: 800;
