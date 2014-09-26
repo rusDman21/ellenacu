@@ -224,6 +224,12 @@ ul, ol, dl {
 .option dd {
   margin-bottom: 1%; }
 
+dl, dt, .justify {
+  text-align: justify; }
+
+.left {
+  text-align: left; }
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
