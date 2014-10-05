@@ -39,7 +39,7 @@ nav {
 
 section {
   max-width: 800px;
-  margin: 10% auto;
+  margin: 4% auto;
   width: 90%; }
 
 footer {
@@ -51,6 +51,12 @@ span {
   display: inline-block;
   margin-top: 40px; }
 
+blockquote {
+  margin: 2.5em auto;
+  width: 90%; }
+  blockquote p {
+    margin: 0.4em 0; }
+
 .activity {
   float: left;
   width: 50%; }
@@ -61,8 +67,7 @@ span {
   text-align: center;
   width: 42%; }
 
-.event {
-  margin: 10% 0;
+.full-width {
   width: 100%; }
 
 .details {
@@ -72,6 +77,9 @@ span {
 
 .pull {
   float: left; }
+
+.push {
+  float: right; }
 
 .overview {
   float: left;
@@ -224,6 +232,12 @@ ul, ol, dl {
 .option dd {
   margin-bottom: 1%; }
 
+dl, dt, .justify {
+  text-align: justify; }
+
+.left {
+  text-align: left; }
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -244,19 +258,17 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible; }
 
 h1 {
-  font-size: 10.5em; }
+  font-size: 10.5em;
+  line-height: 1; }
 
-h2 {
+h2, h5 {
   font-size: 3em; }
 
 h3 {
-  font-size: 3em; }
+  font-size: 3.6em; }
 
 h4 {
   font-size: 4.5em; }
-
-h5 {
-  font-size: 3.9em; }
 
 h6, .registry {
   font-size: 2.7em; }
@@ -272,11 +284,11 @@ nav li {
 
 h1 {
   letter-spacing: -0.03em;
-  margin: 0 0 -44px;
+  margin: 0 0 -24px;
   overflow: visible;
   zoom: 1; }
 
-h2 {
+.text-spread {
   letter-spacing: 0.56em;
   padding-left: 20px; }
 
@@ -285,6 +297,9 @@ h2, h4, h5, h6 {
 
 h3 {
   margin: 0.5em 0 0.3em 0; }
+
+blockquote {
+  font-size: 0.96em; }
 
 b, strong {
   font-weight: 600; }
@@ -317,8 +332,9 @@ q {
   text-align: justify; }
 
 .left {
-  text-align: left;
-  padding-left: 6%; }
+  text-align: left; }
+  .left li {
+    padding-left: 6%; }
 
 @media all and (min-width: 1320px) {
   .hide-med {
