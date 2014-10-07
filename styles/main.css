@@ -61,7 +61,7 @@ blockquote {
   float: left;
   width: 50%; }
 
-.party-male, .party-female {
+.half-width {
   float: left;
   margin: 10px 4%;
   text-align: center;
@@ -227,10 +227,8 @@ ul, ol, dl {
   padding: 0;
   margin: 0; }
 
-.option dt {
-  font-size: 1.2em; }
-.option dd {
-  margin-bottom: 1%; }
+dl {
+  margin-top: 0.8em; }
 
 dl, dt, .justify {
   text-align: justify; }
@@ -247,7 +245,7 @@ table {
   src: url("../fonts/chunkfive-webfont.eot");
   src: url("../fonts/chunkfive-webfont.eot") format("embedded-opentype"), url("../fonts/chunkfive-webfont.woff") format("woff"), url("../fonts/chunkfive-webfont.ttf") format("truetype"), url("../fonts/chunkfive-webfont.svg") format("svg"); }
 
-body, h2, h3, h5 {
+body, h2, h3, h5, h6 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 100; }
 
@@ -270,7 +268,7 @@ h3 {
 h4 {
   font-size: 4.5em; }
 
-h6, .registry {
+h6 {
   font-size: 2.7em; }
 
 p, dl, span {
