@@ -13,13 +13,10 @@ body {
   text-align: center; }
 
 .container {
-  background: #04083c;
-  background: url("../img/scales-drk-blue.png");
-  padding-top: 60px; }
+  background: #000a28;}
 
 header {
   background: white;
-  background: url("../img/feathers.png");
   border: none;
   display: block;
   padding: 10px 20px;
@@ -29,7 +26,6 @@ header {
 
 .main {
   background: white;
-  background: url("../img/feathers.png");
   padding: 40px;
 }
 
@@ -41,7 +37,6 @@ section, .main {
 
 footer {
   background: white;
-  background: url("../img/mountain-sm.png") bottom center no-repeat;
   border: none;
   height: 184px;
   margin: 0 auto;
@@ -184,56 +179,69 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: "Edwardian Script";
-  src: url("../fonts/edwardian-script-webfont.eot");
-  src: url("../fonts/edwardian-script-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/edwardian-script-webfont.woff") format("woff"), url("../fonts/edwardian-script-webfont.ttf") format("truetype"), url("../fonts/edwardian-script-webfont.svg") format("svg"); }
+  font-family: "Chunk-Five";
+  src: url("../fonts/chunkfive-webfont.eot");
+  src: url("../fonts/chunkfive-webfont.eot") format("embedded-opentype"), url("../fonts/chunkfive-webfont.woff") format("woff"), url("../fonts/chunkfive-webfont.ttf") format("truetype"), url("../fonts/chunkfive-webfont.svg") format("svg"); }
 
-@font-face {
-  font-family: "Champagne Limousines";
-  src: url("../fonts/champagne-limousines-webfont.eot");
-  src: url("../fonts/champagne-limousines-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/champagne-limousines-webfont.woff") format("woff"), url("../fonts/champagne-limousines-webfont.ttf") format("truetype"), url("../fonts/champagne-limousines-webfont.svg") format("svg"); }
+body, h2, h3, h5, h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100; }
 
-body {
-  font-family: "Champagne Limousines"; }
-
-header, h4 {
-  font-family: "Edwardian Script", cursive; }
-
-h2, h3, h5 {
-  font-family: "Champagne Limousines", cursive; }
+h1, h4 {
+  font-family: "Chunk-Five"; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  overflow: visible; }
 
 h1 {
-  font-size: 9em; }
+  font-size: 10.5em;
+  line-height: 1; }
 
-h2, h3 {
+h2, h5 {
   font-size: 3em; }
 
+h3 {
+  font-size: 3.6em; }
+
 h4 {
-  font-size: 6.75em; }
+  font-size: 4.5em; }
 
-h5 {
-  font-size: 4.2em; }
-
-h6, .nav {
+h6 {
   font-size: 2.7em; }
 
-section li, section p {
+p, dl, span {
+  font-size: 1.95em; }
+
+li {
+  font-size: 1.95em; }
+
+nav li {
   font-size: 2.25em; }
 
 h1 {
-  margin: 0 0 -20px; }
+  letter-spacing: -0.03em;
+  margin: 0 0 -24px;
+  overflow: visible;
+  zoom: 1; }
 
-h2, h3 {
+.text-spread {
+  letter-spacing: 0.56em;
+  padding-left: 20px; }
+
+h2, h4, h5, h6 {
   margin: 0; }
 
-h4, h5, h6 {
-  margin: 0.5em 0 0 0; }
+h3 {
+  margin: 0.5em 0 0.3em 0; }
+
+blockquote {
+  font-size: 0.96em; }
 
 b, strong {
-  font-weight: bold; }
+  font-weight: 600; }
+
+em {
+  font-weight: 200; }
 
 hr {
   -moz-box-sizing: content-box;
@@ -245,3 +253,15 @@ pre {
 
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+.underline {
+  border-bottom: 1px dotted #000a28;
+  padding-bottom: 4px; }
+
+.justify {
+  text-align: justify; }
+
+.left {
+  text-align: left; }
+  .left li {
+    padding-left: 6%; }
