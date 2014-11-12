@@ -150,6 +150,10 @@ svg:not(:root) {
   margin: 0 auto;
   width: 40%; }
 
+.map {
+  margin: 0 auto;
+  width: 80%; }
+
 figure {
   margin: 0; }
 
